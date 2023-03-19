@@ -1,5 +1,6 @@
 data= read.table("E:/SEM 6/DATA VIZ/LAB/DATASET/bands.data",sep=',')
 data[data == '?'] ="NA"
+#dataset link:https://archive.ics.uci.edu/ml/datasets/Cylinder+Bands
 
 
 data= setNames(data, c("timestamp","cylinder","customer","job_number","grain_screened"
